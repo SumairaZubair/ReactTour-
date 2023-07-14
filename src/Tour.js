@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 const Tour = (props) => {
 	const { id, image, info, price, name, removeTour } = props
 
-	const [readMore, setReadMore] = useState(true)
+	const [readMore, setReadMore] = useState(false)
 
 	return (
 		<div className="single-tour">
